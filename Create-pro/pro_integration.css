@@ -1,0 +1,92 @@
+/*GENERAL*/
+body{
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+}
+h1{
+    font-size: 133px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+hr{
+    background-color: #e8e8e8;
+width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header, span{
+    color: #cfa205;
+    background-color: black;
+}
+/*NAVIGATION*/
+.navigation{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: black;
+    width: inherit;
+    height: 60px;
+}
+/*HEADER*/
+#mainContainer{
+    background-color: white;
+    width: 1400px;
+    height: 1010px;
+    margin: auto;
+}
+.header{
+    text-align: center;
+    height: 320px;
+}
+.nav{
+    background-color: black;
+}
+/**/
+.link{
+    background-color: #e8e8e8;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+/*PARAGRAPHE*/
+.paragr{
+    text-align: center;
+    font-family: 'Bitter', serif;
+    width: 900px;
+    height: 90px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+/*CARD*/
+.cards{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    list-style: none;
+    width: inherit;
+}
+.image{
+    width: 260px;
+    height: 195px;
+}
+.titre{
+    width: 260px;
+    height: 480px;
+    font-family: 'Bitter', serif;
+}
+.description{
+    font-size: 14px;
+    font-family: 'Bitter', serif;
+}
